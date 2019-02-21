@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: orange;
+}
+
+.tweet-form{
+    width: 500px;
+    padding: 50px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+textarea {
+    resize: none;
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
