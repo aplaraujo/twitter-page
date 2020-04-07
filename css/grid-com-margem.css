@@ -1,0 +1,161 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+[class*="c-"]{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+[class*="c-"]:last-child{
+    margin-right: 0;
+}
+
+.c-1{
+    flex: 1;
+    width: 100%;
+}
+
+.c-2{
+    flex: 2;
+    width: 50%;
+}
+
+.c-3{
+    flex: 3;
+    width: 33.333333333%;
+}
+
+.c-4{
+    flex: 4;
+    width: 25%;
+}
+
+.c-5{
+    flex: 5;
+    width: 20%;
+}
+
+.c-6{
+    flex: 6;
+    width: 16.666666667%;
+}
+
+.c-7{
+    flex: 7;
+    width: 14.28571%;
+}
+
+.c-8{
+    flex: 8;
+    width: 12.5%;
+}
+
+.c-9{
+    flex: 9;
+    width: 11.11111%;
+}
+
+.c-10{
+    flex: 10;
+    width: 10%;
+}
+
+.c-11{
+    flex: 11;
+    width: 9.09091%;
+}
+
+.c-12{
+    flex: 12;
+    width: 8.33333%;
+}
+
+.c-1-12{
+    flex: 1;
+    width: 8.33333%;
+}
+
+.c-11-12{
+    flex: 11;
+    width: 9.66666%;
+}
+
+.c-2-12{
+    flex: 2;
+    width: 16.666667%;
+}
+
+.c-10-12{
+    flex: 10;
+    width: 83.333333%;
+}
+
+.c-3-12{
+    flex: 3;
+    width: 24.99999%;
+}
+
+.c-9-12{
+    flex: 7;
+    width: 74.99999%;
+}
+
+.c-4-12{
+    flex: 4;
+    width: 33.33333%;
+}
+
+.c-8-12{
+    flex: 8;
+    width: 66.66664%;
+}
+
+.c-5-12{
+    flex: 5;
+    width: 41.66664%;
+}
+
+.c-7-12{
+    flex: 7;
+    width: 58.33331%;
+}
+
+@media screen and (max-width: 600px){
+    .flex-grid{
+        display: block;
+    }
+    [class*="c-"]{
+        width: 100%;
+    }
+}
+
