@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Escuta as Minas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid-com-margem.css">
+    <title>Fashion Twitter</title>
 </head>
 <body>
-    
-    
-    
 
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
 
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/firebase-config.js"></script>
-    <script src="js/login.js"></script>
-    <script src="js/user-register.js"></script>
-    <script src="js/timeline.js"></script>
-    <script src="js/profile.js"></script>
+    <nav class="nav-bg">
+        <div class="container">
+            <div><h1>Fashion</h1></div>
+            <div><h3>TWITTER</h3></div>
+        </div>
+    </nav>
 
+    <section class="container">
+        <div class="flex-grid">
+            <form class="c-2 text-style">
+                <div>
+                    <textarea id="autoresizing" class="content" placeholder="Digite uma mensagem" maxlength="140"></textarea>
+                </div>
+                <div class="send-style">
+                    <span id="count" class="counter"></span>
+                    <input type="submit" id="btn" value="Publicar" disabled>
+                </div>
+                
+            </form>
+
+            <ul id="post" class="c-2"><div></div></ul>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 </html>
